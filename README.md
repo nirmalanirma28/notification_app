@@ -10,5 +10,10 @@
   Add database, username, password, host into the database.yml
 
 add Authkey, senderId into the local_env.yml for msg91
+
 configure email settings in config/environments/development.rb
+
 add gem 'pg', gem 'msg91ruby' into the gemfile
+
+bundle install
+rails db:migrate RAILS_ENV=development
