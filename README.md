@@ -2,19 +2,14 @@
 
 - Ruby version
   2.7.2
-- System dependencies
+- Add database, username, password, host into the database.yml
 
-- Configuration
+- Add Authkey, senderId into the local_env.yml for msg91
 
-- Database creation
-  Add database, username, password, host into the database.yml
+- Configure email settings in config/environments/development.rb
 
-add Authkey, senderId into the local_env.yml for msg91
+- Add gem 'pg', gem 'msg91ruby' into the gemfile
 
-configure email settings in config/environments/development.rb
+- bundle install
 
-add gem 'pg', gem 'msg91ruby' into the gemfile
-
-bundle install
-
-rails db:migrate RAILS_ENV=development
+- rails db:migrate RAILS_ENV=development
