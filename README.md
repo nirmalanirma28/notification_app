@@ -16,4 +16,5 @@ configure email settings in config/environments/development.rb
 add gem 'pg', gem 'msg91ruby' into the gemfile
 
 bundle install
+
 rails db:migrate RAILS_ENV=development
