@@ -1,0 +1,2 @@
+class DevelopersTeam < ApplicationRecord
+end
